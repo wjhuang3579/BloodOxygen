@@ -6,7 +6,7 @@
 #include <Wire.h>
 #include "MAX30105.h"  //MAX3010x library
 #include "heartRate.h" //Heart rate calculating algorithm
-// #include "ESP32Servo.h"
+// #include "ESP32Servo.h"  // Cause I use NodeMCU-1.0 instead
 MAX30105 particleSensor;
 int Tonepin = 4;
 //計算心跳用變數
